@@ -1,0 +1,124 @@
+/* @import url('https://fonts.google.com/specimen/Merriweather'); */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body{
+            background-image: url('https://img.freepik.com/free-photo/freshness-beauty-nature-wet-drops-generated-by-ai_188544-42230.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+        }
+        #header{
+            height: 20vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #header .logo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #header img{
+            height: 8vh;
+            margin-left: 30px;
+            float: left;
+        }
+        #header a{
+            color: #fff;
+            text-decoration: none;  
+            margin-right: 60px;
+            font-size: 16px;  
+        }
+        #header .key h1{
+            font-size: 35px;
+            font-weight: 700;
+            font-family: sans-serif;
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #login{
+            width: 30vw;
+            height: 70vh;
+            margin: 0px auto;
+        }
+        .container{
+            border: 1px solid #fff;
+            backdrop-filter: blur(7px);
+            border-radius: 25px;
+            padding: 30px;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+        }
+        #login .container img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin-left: 150px;
+            
+        }
+        #login form input{
+            border-radius: 50px;
+            border: none;
+            height: 40px;
+            width: 25vw;
+            margin: 10px;
+            padding: 5px;
+            padding-left: 120px;
+            font-weight: 700;
+            font-size: 25px;
+            background-color: rgba(0, 0, 0, 0.573);
+        }
+        #login button{
+            border-radius: 50px;
+            border: none;
+            height: 40px;
+            width: 15vw;
+            background-color: rgb(115, 0, 255);
+            color: #fff;
+            margin: 5px;
+            margin-left: 80px;
+            font-size: 22px;
+            font-weight: 700;
+            
+        }
+        .inside1, .inside2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            color: #fff;
+        }
+        #footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 5vh;
+        }
+        #footer .left{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #footer .right{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #footer .right a{
+            margin-right: 100px;
+        }
+        #footer a{
+            color: #fff;
+            text-decoration: none;
+            margin-left: 50px;
+            font-weight: 700;
+            font-size: 17px;
+        }
